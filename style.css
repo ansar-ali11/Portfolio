@@ -180,7 +180,6 @@ main {
 }
 
 
-
 .bg-gray {
     background-color: rgba(254,196,72,0.1);
 }
@@ -415,7 +414,7 @@ main {
     border: 2px solid var(--dark-color);
     box-shadow: 5px 5px 0 0 var(--dark-color);
     display: flex;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .service-box:hover{
