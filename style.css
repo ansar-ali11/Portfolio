@@ -412,13 +412,11 @@ main {
 .service-box{
     padding: 20px;
     border: 2px solid var(--dark-color);
-    box-shadow: 5px 5px 0 0 var(--dark-color);
     display: flex;
-    transition: 0.5s;
+    transition: 3s;
 }
 
 .service-box:hover{
-    box-shadow: 0 0 0 0 var(--dark-color);
     cursor: pointer;
 }
 
@@ -495,8 +493,6 @@ main {
 }
 
 
-
-
 .skill-box .icon{
     width: 70px;
     height: 70px;
@@ -512,10 +508,10 @@ main {
 
 
 
-#skill .container .skill-box .feature-box-small{
+ .skill-box .feature-box-small{
     padding: 25px;
     align-items: center;
-    transition: 1s;
+    transition: 0.5s;
     border: 2px solid var(--dark-color);
     text-align: right;
     font-weight: 600;
@@ -523,10 +519,6 @@ main {
 
 #skillimg{
     margin-top: 100px;
-}
-
-.skill-box .feature-box-small:hover{
-    box-shadow: 3px 3px 0 0 var(--dark-color);
 }
 
 #bx .icon{
